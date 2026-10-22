@@ -1,7 +1,5 @@
 # lsmkv
 
-[![CI](https://github.com/Momin-Hasson/lsmkv/actions/workflows/ci.yml/badge.svg)](https://github.com/Momin-Hasson/lsmkv/actions/workflows/ci.yml)
-
 A small, crash-safe **LSM-tree key-value store** in pure Python (stdlib only, ~350 lines). It implements the same core design as LevelDB/RocksDB/Cassandra: write-ahead log, memtable, immutable sorted tables, Bloom filters, and compaction.
 
 ```python
